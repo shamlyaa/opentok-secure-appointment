@@ -4,7 +4,7 @@
       <b-button id="show-btn" style="margin-top: 2%" variant="success" @click="$bvModal.show('new-appointment-modal')">
         New Appointment
       </b-button>
-      <b-modal id="new-appointment-modal" size="lg" title="New Appointment" @show="resetModal" @hidden="resetModal" @ok="handleSubmit">
+      <b-modal id="new-appointment-modal" size="lg" title="New Video Appointment" @show="resetModal" @hidden="resetModal" @ok="handleSubmit">
         <span>
           <form ref="form">
             <b-form-group label="Name" label-for="name-input" invalid-feedback="Name is required">
