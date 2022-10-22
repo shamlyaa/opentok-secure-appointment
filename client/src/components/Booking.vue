@@ -2,7 +2,7 @@
   <span>
     <div>
       <b-button id="show-btn" style="margin-top: 2%" variant="success" @click="$bvModal.show('new-appointment-modal')">
-        New Appointment
+        New Video Appointment
       </b-button>
       <b-modal id="new-appointment-modal" size="lg" title="New Video Appointment" @show="resetModal" @hidden="resetModal" @ok="handleSubmit">
         <span>
