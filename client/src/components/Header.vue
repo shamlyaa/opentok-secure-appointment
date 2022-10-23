@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <img
-      :src="logo"
+      :src=""
       style="height: 40px"
     >
     <div class="title">
